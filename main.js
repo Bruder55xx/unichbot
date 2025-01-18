@@ -2,7 +2,7 @@ import axios from 'axios';
 import log from './utils/logger.js';
 import bangToib from './utils/banner.js'
 import fs from 'fs';
-
+const keep_alive = require('./keep_alive.js')
 const filePath = 'tokens.txt';
 
 // read tokens from file
